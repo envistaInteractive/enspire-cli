@@ -1,0 +1,46 @@
+{
+    "name": "<%= name %>",
+    "scope": "<%= scope %>",
+    "description": "<%= description %>",
+    "views":[
+        {
+            "name": "Default Name",
+            "description": "The default view for all roles.",
+            "roles": [],
+            "criteria": [
+                {
+                    "name": "Name",
+                    "field": "name",
+                    "group": "",
+                    "define": {
+                        "args": {
+                            "list": [],
+                            "default": ""
+                        },
+                        "type": "text",
+                        "values": {
+                            "source":"list",
+                            "api": {
+                                "path": "",
+                                "sort": "",
+                                "fields": "",
+                                "filter": "",
+                                "groupBy": "",
+                                "optionNameField": "",
+                                "optionValueField": ""
+                            },
+                            "list": [],
+                            "default": "",
+                            "dateRange": false
+                        },
+                        "template": "",
+                        "placeholder": ""
+                    }
+                }
+            ],
+            "tabs": [],
+            "tags": []
+        }
+    ],
+    "tags": []
+}

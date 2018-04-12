@@ -1,0 +1,34 @@
+{
+    "name": "<%= name %>",
+    "type": "html",
+    "description": "<%= description %>",
+    "views": [
+        {
+            "name": "Default",
+            "description": "The default view for all roles.",
+            "roles": [],
+            "settings": {
+                "attrs": {},
+                "title": "Navigation Title",
+                "content": "Navigation/Section description."
+            },
+            "menuItems": [
+                {
+                    "href": "#/",
+                    "icon": "",
+                    "text": "Item Text",
+                    "attrs": {},
+                    "menuItems": [],
+                    "ngIf": "",
+                    "ngHide": "",
+                    "hasPermission": "",
+                    "ngClass": "",
+                    "ngClick": "",
+                    "ngRepeat": ""
+                }
+            ],
+            "tags": []
+        }
+    ],
+    "tags": []
+}

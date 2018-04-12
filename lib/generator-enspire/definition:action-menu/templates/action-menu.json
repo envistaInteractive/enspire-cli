@@ -1,0 +1,31 @@
+{
+    "name": "<%= name %>",
+    "type": "html",
+    "description":"<%= description %>",
+    "views": [
+        {
+            "name": "Default View",
+            "description":"The default view for all roles.",
+            "roles": [],
+            "settings": {
+                "text": "",
+                "type": "icon",
+                "icon": "default",
+                "attrs": {}
+            },
+            "buttons": [
+                {
+                    "text": "Button Text",
+                    "type": "ecView",
+                    "icon": "default",
+                    "ngClick": "showScreen('/section/' + item.refKey + '/')",
+                    "ngIf": "",
+                    "ngHide": "",
+                    "ngRepeat": "",
+                    "showIfPermission": "",
+                    "attrs": {}
+                }
+            ]
+        }
+    ]
+}

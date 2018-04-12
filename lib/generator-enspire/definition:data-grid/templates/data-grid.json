@@ -1,0 +1,77 @@
+{
+    "name": "<%= name %>",
+    "scope": "<%= scope %>",
+    "type": "html",
+    "description": "<%= description %>",
+    "views": [
+        {
+            "name": "Default Name",
+            "description": "The default view for all roles.",
+            "roles": [],
+            "columns": [
+                {
+                    "name": "Column Name",
+                    "align": "left",
+                    "field": "fieldName",
+                    "width": "100",
+                    "visible": true,
+                    "enableSort": true,
+                    "sortWith": "",
+                    "enableCustomHeader":false,
+                    "customHeader": "",
+                    "enableCustomContent":false,
+                    "customContent": "",
+                    "cellAttrs": {
+
+                    },
+                    "ngIf": "",
+                    "ngHide": "",
+                    "ngClick": "",
+                    "ngRepeat": "",
+                    "hasPermission": "",
+                    "stopPropagation": true
+                }
+            ],
+            "gallery": {
+                "item": "",
+                "attrs": {},
+                "header": "",
+                "itemAttrs": {},
+                "headerAttrs": {}
+            },
+            "settings": {
+                "row":{
+                    "ngClass":"",
+                    "ngClick":"",
+                    "expandable": {
+                        "enabled": false,
+                        "includeTemplate": "",
+                        "expanded": false,
+                        "icon":{
+                            "whenOpen": "default",
+                            "whenClosed": "default",
+                            "position": "left"
+                        }
+                    },
+                    "checkbox": {
+                        "enabled": false,
+                        "toggle": true,
+                        "selectType": "multiple",
+                        "onSelect": "",
+                        "position": "left",
+                        "ngDisabled": "",
+                        "actionMenuName": ""
+                    },
+                    "actionMenu": {
+                        "enabled": false,
+                        "name": "",
+                        "position": "left"
+                    }
+                },
+                "dataFilterName": "",
+                "noResultsIncludeTemplate": ""
+            }
+        }
+    ],
+    "tags": []
+}
