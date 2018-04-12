@@ -1,0 +1,31 @@
+{
+  "name": "enspire-cli",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/envistaInteractive/enspire-cli.git"
+  },
+  "author": "Jason Futch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/envistaInteractive/enspire-cli/issues"
+  },
+  "homepage": "https://github.com/envistaInteractive/enspire-cli#readme",
+  "preferGlobal": true,
+  "bin": {
+    "enspire": "index.js"
+  },
+  "dependencies": {
+    "inquirer": "^3.2.1",
+    "yeoman-environment": "^2.0.2",
+    "yeoman-generator": "^1.1.1"
+  },
+  "devDependencies": {
+    "@enspire/eslint-config-enspire": "^1.1.1",
+    "eslint": "^4.4.1"
+  }
+}
